@@ -1,0 +1,21 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root{
+    --primary: #040517;
+    --text-primary: #e5e5e5e7;
+    --text-secondary: #f5f5f555;
+}
+.nameprofile{
+    font-size: 15px;
+}
+.font001{
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+.font001:hover{
+     color: var(--text-primary)
+}
+.names-view{
+    font-size: 20px;
+}

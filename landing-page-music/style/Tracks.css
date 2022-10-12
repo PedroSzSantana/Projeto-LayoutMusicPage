@@ -1,0 +1,12 @@
+.image-tracks{
+    width: 100px;
+    height: 100px;
+}
+.Tracks div{
+    display: inline-flex;
+    flex-direction: column;
+}
+.divs-tracks{
+    width: 150px;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.layout1{
+    margin-left: 30px;
+}
+.layoutnav1{
+    margin-left: 10px;
+    margin-top: 100px;
+}
+body{
+    display: grid;
+    grid-template-columns:  220px 1fr;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}

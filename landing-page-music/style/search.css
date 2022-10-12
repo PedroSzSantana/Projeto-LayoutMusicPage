@@ -1,0 +1,17 @@
+main div{
+    display: flex;
+    align-items: center;
+}
+main div, button, input {
+    background-color: transparent;
+    border: transparent;
+    padding: 15px 25px 15px 25px ;
+    color: #ffff;
+}
+main input{
+    width: 60%;
+}
+button img{
+    width: 15px;
+    padding: 0;
+}

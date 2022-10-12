@@ -1,0 +1,25 @@
+header{
+    background-color: #090d1b;
+}
+nav div img {
+    width: 50px;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 40vh;
+    align-items: center;
+}
+nav div div{
+    flex-direction: column;
+}
+nav li{
+    list-style: none; 
+}
+.div1{
+    display: flex;
+    color: #ffff;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,12 @@
+main section h1{
+    color: #ffff;
+}
+.effecthov {
+    opacity: 0.5;
+    padding: 10px 20px 0 20px;
+    align-items: center;
+    text-align: start;
+}
+.effecthov:hover {
+    opacity: 1;
+}
