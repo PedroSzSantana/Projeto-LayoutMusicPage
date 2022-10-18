@@ -4,7 +4,6 @@ main section h1{
 .effecthov {
     opacity: 0.5;
     padding: 10px 20px 0 20px;
-    align-items: center;
     text-align: start;
 }
 .effecthov:hover {
