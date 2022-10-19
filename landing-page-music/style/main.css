@@ -1,3 +1,66 @@
+.FeaturedPlaylists_div{
+    width: 1000px;
+    overflow-x:scroll;
+}
+::-webkit-scrollbar{
+    height: 7px;
+}
+::-webkit-scrollbar-track{
+   border-radius: 10px;
+    background: #090d1b;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    width: 30px;
+    background:#312253;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#583f93;
+}
+.FeaturedPlaylists div img {
+    width: 250px;
+    height: 200px;
+    opacity: 0.5;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.FeaturedPlaylists div img:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);}
+.FeaturedPlaylists div div{
+    display: flex;
+    flex-direction: column;
+}
+/* */
+.ProfileViews1 img{
+    width: 50px;
+    height: 40px;
+}
+.ProfileViews1 div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+.ProfileViews1 div {
+   width: 400px;
+}
+/*Tracks*/
+.image-tracks{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.Tracks div{
+    display: inline-flex;
+    flex-direction: column;
+}
+.divs-tracks{
+    width: 150px;
+    text-align: center;
+}
 main section h1{
     color: #ffff;
 }
@@ -8,4 +71,47 @@ main section h1{
 }
 .effecthov:hover {
     opacity: 1;
+}
+@media screen and (max-width: 600px){
+    /*Featured Playlists*/
+    .FeaturedPlaylists{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .FeaturedPlaylists h1{
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .FeaturedPlaylists_div{
+        width: 95%;
+    }
+    .FeaturedPlaylists_div h3{
+        font-size:15px;
+    }
+    .FeaturedPlaylists div img {
+        width: 100px;
+        height: 100px;
+    }
+    /*Profile Views*/
+    .ProfileViews1 div div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: end;
+    }
+    .ProfileViews1 div {
+  
+       width: 100%;
+    }
+    .effecthov div h2{
+        font-size: 15px;
+    }
+    /*Tracks*/
+    .Tracks{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 15px 0 15px 0;
+    }
 }
